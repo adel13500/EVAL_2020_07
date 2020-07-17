@@ -5,6 +5,8 @@
  */
 package eval;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Formation
@@ -15,7 +17,26 @@ public class Q1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner reader = new Scanner(System.in);
+        
+        int n=0, i=0;
+         {System.out.println(" saisir un entier positif");
+        n=reader.nextInt();
+        } 
+         
+         
+        for ( i=0 ; i<=9 ; i=i+2)
+            
+        
+            
+            System.out.println(" la valeur est " + i);
+        
+        
+
+            
+                    }
+        
+        
     }
     
 }
