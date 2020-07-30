@@ -5,6 +5,8 @@
  */
 package eval;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Formation
@@ -15,7 +17,21 @@ public class Q2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+         Scanner reader = new Scanner(System.in);
+        int n,i;
+        long produit=1;
+         {System.out.print(" Donner la valeur de n"
+                 + ""
+                 + ""
+                 + "");
+        n=reader.nextInt();
+        for ( i=1 ; i< 2* n ; i= i+2){
+            produit=produit*i;
+        }
+         
+        System.out.println("  le produit vaut:" + produit);
     }
     
 }
