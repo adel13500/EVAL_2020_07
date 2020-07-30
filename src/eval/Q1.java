@@ -19,17 +19,16 @@ public class Q1 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         
-        int n=0, i=0;
-         {System.out.println(" saisir un entier positif");
-        n=reader.nextInt();
-        } 
-         
-         
-        for ( i=0 ; i<=9 ; i=i+2)
-            
         
+         {System.out.print(" saisir un entier positif");
+        int n =reader.nextInt();
+        
+       
+         
+         if( n% 2 !=0 ) n++;
+        for (int i=n; i <n+10 ; i=i+2){
             
-            System.out.println(" la valeur est " + i);
+             System.out.println (i);
         
         
 
